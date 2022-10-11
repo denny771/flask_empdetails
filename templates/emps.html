@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<title>List of Empolyees - Python Flask MySQL CRUD</title>
+
+<p><a href="{{ url_for('.add_emp_view') }}"> Add Emp </a></p>
+
+<p>{% with messages = get_flashed_messages() %}
+    {% if messages %}
+<ul class=flashes>
+    {% for message in messages %}
+<li>{{ message }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+{% endwith %}
+</p>
+
+{{ table }}
