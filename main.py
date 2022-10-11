@@ -40,7 +40,7 @@ def add_emp():
             return redirect('/')
         else:
             return 'Error while adding user'
-    #1
+    
     except Exception as e:
         print(e)
     finally:
