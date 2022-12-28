@@ -7,7 +7,7 @@ from db_config import mysql
 from flask import flash,render_template, request ,redirect
 from werkzeug.security import generate_password_hash, check_password_hash
 from queries import sql1, sql2, sql3, sql4,sql5
-
+# https://www.loginworks.com/blogs/making-web-application-crud-using-flask-and-mysql/
     
 
 
